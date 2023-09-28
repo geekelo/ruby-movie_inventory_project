@@ -42,7 +42,7 @@ loop do
   when 1
     puts 'List of Movies:'
     items.each do |item|
-      puts "- Title: #{item.title}, Genre: #{item.genre}, Published: #{item.publish_date}, Archived: #{item.archived}"
+      puts "- Title: #{item.title}, Source: #{item.source}, Published: #{item.publish_date}, Archived: #{item.archived}"
     end
   when 2
     puts 'List of Sources:'

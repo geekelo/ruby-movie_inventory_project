@@ -10,8 +10,6 @@ class Item
     @archived = archived
   end
 
-  attr_writer :genre, :author, :source, :label, :title
-
   def can_be_archived?
     curr_date = Date.today
     curr_year = curr_date.year

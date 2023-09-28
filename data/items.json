@@ -1,3 +1,6 @@
-{"title":"far","publish_date":"2010-06-06","archived":true,"genre":null,"author":null,"source":"teddy","label":null}
-{"title":"rabbit","publish_date":"2014-08-08","archived":true,"genre":null,"author":null,"source":"party","label":null}
-{"title":"testing","publish_date":"2020-07-07","archived":true,"genre":null,"author":null,"source":"tester","label":null}
+{"title":"far","publish_date":"2010-06-06","archived":true,"source":"teddy"}
+{"title":"rabbit","publish_date":"2014-08-08","archived":true,"source":"party"}
+{"title":"testing","publish_date":"2020-07-07","archived":true,"source":"tester"}
+{"title":"Testchanges","publish_date":"2022-04-04","archived":false,"source":"developer"}
+{"title":"New changes","publish_date":"2013-05-05","archived":false,"source":"teddie"}
+{"title":"great","publish_date":"2022-04-04","archived":true,"source":"unknown"}

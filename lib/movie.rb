@@ -6,11 +6,12 @@ class Movie < Item
     @silent = silent
   end
 
+  def source=(source)
+    @source = source || 'unknown'
+  end
+
   def can_be_archived?
-    return true if super || @silent
-
-
-    false
+   super || @silent
   end
 
   def to_json(*_args)
@@ -18,10 +19,7 @@ class Movie < Item
       title: @title,
       publish_date: @publish_date.to_s,
       archived: @archived,
-      genre: @genre,
-      author: @author,
       source: @source,
-      label: @label
     }
   end
 
@@ -29,10 +27,7 @@ class Movie < Item
     data = JSON.parse(json)
     item = new(data['title'], data['publish_date'])
     item.archived = data['archived']
-    item.genre = data['genre']
-    item.author = data['author']
     item.source = data['source']
-    item.label = data['label']
     item
   end
 end
