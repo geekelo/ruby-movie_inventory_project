@@ -10,25 +10,7 @@ class Item
     @archived = archived
   end
 
-  def genre=(genre)
-    @genre = genre
-  end
-
-  def author=(author)
-    @author = author
-  end
-
-  def source=(source)
-    @source = source
-  end
-
-  def label=(label)
-    @label = label
-  end
-
-  def title=(title)
-    @title = title
-  end
+  attr_writer :genre, :author, :source, :label, :title
 
   def can_be_archived?
     curr_date = Date.today
