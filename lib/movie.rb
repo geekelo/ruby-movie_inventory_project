@@ -11,7 +11,7 @@ class Movie < Item
   end
 
   def can_be_archived?
-   super || @silent
+    super || @silent
   end
 
   def to_json(*_args)
@@ -19,7 +19,7 @@ class Movie < Item
       title: @title,
       publish_date: @publish_date.to_s,
       archived: @archived,
-      source: @source,
+      source: @source
     }
   end
 
