@@ -4,7 +4,7 @@
   <img src="https://dl.dropboxusercontent.com/s/110axfscx8e9q3q/Screenshot%202023-04-27%20024351.png" alt="logo" width=""  height="auto" />
   <br/>
 
-  <h3><b>UNIBEK SCHOOL LIBRARY APP</b></h3>
+  <h3><b>MOVIE INVENTORY CONSOLE APP</b></h3>
 
 </div>
 
@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Code Morse ](#-code-morse-)
+- [📖 MOVIE INVENTORY ](#-movie-inventory-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -31,10 +31,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Code Morse <a name="about-project"></a>
+# 📖 MOVIE INVENTORY <a name="about-project"></a>
 
 
-**MOVIE INVENTORY** is a t a simple console app that allows users to manage collections of the movies they own.
+**MOVIE INVENTORY CONSOLE APP** is a t a simple console app built with Ruby that allows users to manage collections of the movies they own.
 This project is based on the following UML class diagram.
 
 ![Alt text](image.png). 
