@@ -9,7 +9,7 @@ def load_data
   if File.exist?('data/items.json')
     File.open('data/items.json', 'r') do |file|
       file.each_line do |line|
-        items << Item.from_json(line)
+        items << Movie.from_json(line)
       end
     end
   end
